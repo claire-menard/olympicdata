@@ -4,5 +4,9 @@ plotly.graph_objects
 matplotlib.pyplot
 base64
 io
-Dash, dcc, html, Input, Output
+Dash
+dcc
+html
+Input
+Output
 gunicorn
