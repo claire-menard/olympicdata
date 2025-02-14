@@ -11,9 +11,6 @@ Original file is located at
 
 """## Summary
 
-[Link to video
-](https://iu.mediaspace.kaltura.com/media/t/1_mqot4094)
-
 The dataset I chose to study contains historical data from both Summer and Winter Olympics Games from the very beginning in 1896 up until 2016. The data focuses on athlete demographic information as well as sport, team, and medal won (if applicable). I found my data on [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-08-06/readme.md).
 
 I wanted to focus on studying patterns among gender in different sports and over time. In the beginning of the semester I started to investigate and demonstrate the question if female representation has increased over time. Since that question was a pretty easy "yes", I started to dive more into the specific sports, team (or country), season, and even specific years to narrow my data. The visualizations below attempt to show the comparison of male versus female representation across different sports and teams over time, allowing users to filter the data as they'd like to find trends in the data.
@@ -66,6 +63,7 @@ def calculate_team_stats(df, year, sport):
 
 # Initialize the Dash app
 app = Dash("My Dash App")
+server = app.server
 
 # Define app layout
 app.layout = html.Div([
