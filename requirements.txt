@@ -1,9 +1,8 @@
+plotly
+dash
 pandas
-base64
-io
-Dash
-dcc
-html
-Input
-Output
+flask
+flask-ngrok
+networkx
 gunicorn
+geopandas
