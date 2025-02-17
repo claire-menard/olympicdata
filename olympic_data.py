@@ -20,7 +20,7 @@ Below is a series of visualizations that I'd like to include in my web app.
 """
 
 #Read Data
-url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRuzokuPJke3HyE-ooCbVKlkyOikFxi3CDQzvosz7KJGf4otbxgH-HWXDpF5iIXTMLGC37rx6mI0VUV/pub?output=csv'
+url = 'https://docs.google.com/spreadsheets/d/181IffodPLiftg8DNRO3nqKh5f-KfWqk6p-MNJ47cuY0/edit?gid=1887622964#gid=1887622964'
 
 import pandas as pd
 import plotly.express as px
