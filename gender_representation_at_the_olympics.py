@@ -27,7 +27,6 @@ url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRuzokuPJke3HyE-ooCbVKlky
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import base64
 import io
 from dash import Dash, dcc, html, Input, Output
