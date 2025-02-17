@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/11Sbe5GxGlztykYxmo4RtMNBKHHaJ3Fk2
 """
 
-!pip install -U kaleido
-
 !pip install dash
 
 """## Summary
