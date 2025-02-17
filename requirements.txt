@@ -6,4 +6,4 @@ flask-ngrok
 networkx
 gunicorn
 geopandas
-matplotlib
+matplotlib==3.5.3
