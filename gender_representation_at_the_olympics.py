@@ -94,11 +94,11 @@ app.layout = html.Div([
         dcc.Graph(id='sunburst-chart', style={'display': 'inline-block', 'width': '18%', 'height': '400px', 'margin-top': '20px'}),
     ], style={'text-align': 'center'}),
 
-        # Markdown takeaway section
+    # Markdown takeaway section
     html.Div([
         dcc.Markdown(
             """
-        **Hover over the choropleth map** to see how specific countries contribute to female representation. Use the dropdown filter to select a specific sport, the timeline feature to select a year, or keep it broad by selecting no filter to explore the gender trends among all combined sports.
+            **Hover over the choropleth map** to see how specific countries contribute to female representation. Use the dropdown filter to select a specific sport, the timeline feature to select a year, or keep it broad by selecting no filter to explore the gender trends among all combined sports.
 
             ### Key Takeaways:
             - Countries with higher female participation often show steady increases over time in gender equality.
