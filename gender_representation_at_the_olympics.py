@@ -21,8 +21,6 @@ I wanted to focus on studying patterns among gender in different sports and over
 Below is a series of visualizations that I'd like to include in my web app.
 """
 
-!pip freeze > requirements.txt
-
 #Read Data
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRuzokuPJke3HyE-ooCbVKlkyOikFxi3CDQzvosz7KJGf4otbxgH-HWXDpF5iIXTMLGC37rx6mI0VUV/pub?output=csv'
 
