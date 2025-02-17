@@ -113,7 +113,6 @@ app.layout = html.Div([
         'border': '1px solid #ccc',
         'border-radius': '5px'
     })
-    ])
 
 # Define callback to update the map based on the selected year and sport
 @app.callback(
