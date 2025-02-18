@@ -207,7 +207,6 @@ def update_map(selected_year, selected_sport):
      Input('year-slider', 'value'),
      Input('sport-dropdown', 'value')]
 )
-
 def update_line_chart(hover_data, selected_year, selected_sport):
     # Extract the hovered team
     hovered_team = hover_data['points'][0]['location'] if hover_data and 'points' in hover_data else None
