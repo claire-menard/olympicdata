@@ -7,3 +7,4 @@ networkx
 gunicorn
 geopandas
 matplotlib
+flask-cors
