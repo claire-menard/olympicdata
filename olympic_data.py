@@ -29,6 +29,8 @@ import matplotlib.pyplot as plt
 import base64
 import io
 from dash import Dash, dcc, html, Input, Output
+from flask_cors import CORS  
+CORS(app.server)
 pd.read_csv(url)
 
 # Load the dataset
@@ -347,4 +349,4 @@ def update_sunburst(hover_data, selected_year, selected_sport):
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True, jupyter_mode="external")
+    app.run_server(debug=True)
