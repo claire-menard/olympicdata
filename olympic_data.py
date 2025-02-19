@@ -30,7 +30,6 @@ import base64
 import io
 from dash import Dash, dcc, html, Input, Output
 from flask_cors import CORS  
-CORS(app.server)
 pd.read_csv(url)
 
 # Load the dataset
@@ -65,6 +64,7 @@ def calculate_team_stats(df, year, sport):
 # Initialize the Dash app
 app = Dash("My Dash App")
 server = app.server
+CORS(app.server)
 
 # Define app layout
 app.layout = html.Div([
