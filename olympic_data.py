@@ -234,7 +234,6 @@ def update_line_chart(hover_data, selected_year, selected_sport):
             hovertemplate='Year: %{x}<br>Count of Athletes: %{y}'
         ))
 
-
     # Add a vertical line for the selected year
     fig.add_vline(x=selected_year, line_dash="dash", line_color="black", annotation_text=f"Year: {selected_year}", annotation_position="top right")
 
