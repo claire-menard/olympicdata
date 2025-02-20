@@ -251,7 +251,6 @@ def update_line_chart(hover_data, selected_year, selected_sport):
             ),
         xaxis=dict(
             title="Year",
-            titlefont=dict(color="black"),  # Title font color
             tickfont=dict(color="black"),  # Tick labels font color
             showgrid=True,                 # Show gridlines
             gridcolor="lightgrey",         # Color of gridlines
@@ -262,7 +261,6 @@ def update_line_chart(hover_data, selected_year, selected_sport):
         ),
         yaxis=dict(
             title="Count of Athletes",
-            titlefont=dict(color="black"),  # Title font color
             tickfont=dict(color="black"),  # Tick labels font color
             showgrid=True,                 # Show gridlines
             gridcolor="lightgrey",         # Color of gridlines
