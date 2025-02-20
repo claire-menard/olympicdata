@@ -211,7 +211,7 @@ def update_map(selected_year, selected_sport):
 )
 def update_line_chart(hover_data, selected_year, selected_sport):
     # Extract the hovered team
-    hovered_team = hover_data['points'][0]['location'] if hover_data and 'points' in hover_data else None
+    hovered_team = hover_data['points'][0]['location'] if hover_data and isinstance(hover_data, dict) and 'points' in hover_data else None
 
     # Filter the dataset for 'Summer' and the hovered team (if any)
     df_filtered = df[(df['season'] == 'Summer')]
