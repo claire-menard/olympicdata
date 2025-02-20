@@ -240,13 +240,15 @@ def update_line_chart(hover_data, selected_year, selected_sport):
     fig.add_vline(x=selected_year, line_dash="dash", line_color="black", annotation_text=f"Year: {selected_year}", annotation_position="top right")
 
     # Update layout
-    title = f"Athlete Count by Gender Over Time {'for ' + hovered_team if hovered_team else 'Globally'}"
     fig.update_layout(
-        title=dict(text=title, x=0, xanchor="left", y=0.95, yanchor="top",
-        font=dict(
-            size=18,
-            color="black",
-            family="Arial")),
+        title=dict(
+          text=f"Athlete Count by Gender Over Time {'for ' + hovered_team if hovered_team else 'Globally'}",
+          x=0,  # Align the title to the left
+          xanchor="left",  # Anchor the title to the left
+          y=0.95,  # Adjust the vertical alignment
+          yanchor="top",
+          font=dict(size=18, color="black", family="Arial"),
+            ),
         xaxis=dict(
             title="Year",
             titlefont=dict(color="black"),  # Title font color
